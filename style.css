@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: #2874f0;
+    font-family: 'Hind', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: burlywood;
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 10px 0 40px;
+    padding: 0 15px;
+}
+
+.searchbutton{
+    display: flex;
+    align-items: center;
+}
+
+.searchbutton img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.container{
+    min-height: calc(100vh - 10vh - 8vh);
+}
+
+.slider{
+    width: 96vw;
+    margin: 8px auto;
+}
+
+.card{
+    width: 97vw;
+    margin: auto;
+    overflow: scroll;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+}
+
+.card-items{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.card-items img{
+    height: 200px;
+    width: 150px;
+}
+
+.lines{
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    height: 8vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
